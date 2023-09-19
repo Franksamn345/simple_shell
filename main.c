@@ -15,7 +15,7 @@ int main(void)
 		num = _read();
 		if (num == -1)
 		{
-			break;
+			return (-1);
 		}
 	}
 	return (0);

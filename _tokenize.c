@@ -37,8 +37,6 @@ int _tokenize(char **buffer, ssize_t *num)
 		token = strtok(NULL, delimit);
 	}
 	argv[i] = NULL;
-	free(buff);
-	free(argv);
 	_pid(argv);
 	return (0);
 }
